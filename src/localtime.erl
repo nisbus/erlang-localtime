@@ -17,7 +17,7 @@
 
 -author("Dmitry Melnikov <dmitryme@gmail.com>").
 
--include("include/tz_database.hrl").
+-include("../include/tz_database.hrl").
 
 -export(
   [

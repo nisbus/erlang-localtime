@@ -29,7 +29,7 @@ lookup_timezone(Tz,D) ->
 	{ok,Value} ->
 	    Value;
 	error ->
-	    erlang:error("Timezone not found")
+	    erlang:error("Timezone not found (~p) in ~p~n",[Tz,D])
     end.
     
 convert_db_to_timezonedict()->
