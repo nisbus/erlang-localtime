@@ -1,6 +1,5 @@
 -module(timezone_convert).
 -author("nisbus").
--import(localtime).
 -include("../include/tz_database.hrl").
 -export([timezone_to_timezone/3]).
 
